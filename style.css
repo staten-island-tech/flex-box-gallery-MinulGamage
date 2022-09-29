@@ -13,12 +13,35 @@ body,
 .header {
   background-color: rgb(200,20,55);
   color: #fff;
-  height: 95vh;
+  height: 27vh;
+  margin: 0px auto;
+  padding: 35px;
+  text-align: center;
+  font-size: 12rem;
   @include flex-col-center;
   justify-content: center;
+
 }
 
-.header-title {
-  font-size: 8rem;
-  text-align: center;
+.header-by {
+  padding: 20px;
+  font-size: 4.5rem;
+}
+
+.about1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
