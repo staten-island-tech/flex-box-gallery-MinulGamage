@@ -7,20 +7,35 @@ body,
   font-size: 62.5%;
 }
 
-.img {
+.parent{
+  font-size: 10px;
+}
+
+.px-size{
+  font-size: 10px;
+}
+
+.rem-size{
+  font-size: 1rem;
+}
+
+.em-size {
+  font-size: 1em;
+}
+
+img {
   height: 3rem;
 }
 .header {
   background-color: rgb(200,20,55);
   color: #fff;
-  height: 27vh;
+  height: 25vh;
   margin: 0px auto;
   padding: 35px;
   text-align: center;
   font-size: 12rem;
-  @include flex-col-center;
+  @include flex-row-center;
   justify-content: center;
-
 }
 
 .header-by {
@@ -28,20 +43,43 @@ body,
   font-size: 4.5rem;
 }
 
-.about1 {
+.parent {
+  font-size: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+
 }
 
-.about2 {
+.parent2 {
+  font-size: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+ 
 }
 
-.about3 {
+.parent3 {
+  font-size: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  
+}
+
+.child-1 {
+  border: 3px solid black;
+  height: 300px;
+}
+
+.child-2 {
+  border: 3px solid green;
+  height: 300px;
+}
+
+.child-3 {
+ border: 3px solid blue;
+ height: 300px;
+}
+
+.about-col {
+  background-color: azure;
+  height: 90%;
 }
