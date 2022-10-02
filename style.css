@@ -30,13 +30,14 @@ img {
 
 }
 .header {
-  background-color: rgb(200,20,55);
+  background-color: rgb(200,60,55);
   color: #fff;
-  height: 38vh;
+  height: 40vh;
   margin: 0px auto;
-  padding: 35px;
+  padding: 25px;
   text-align: center;
   font-size: 12rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .header-by {
@@ -82,18 +83,28 @@ img {
   border: 3px solid black;
   padding: 10px;
   margin: 0px auto;
+  background-color: indianred;
+  border-radius: 7%;
 }
 
 .child-2 {
   border: 3px solid black;
   padding: 10px;
   margin: 0px auto;
+  background-color: indianred;
+  border-radius: 7%;
 }
 
 .child-3 {
   border: 3px solid black;
   padding: 10px;
   margin: 0px auto;
+  background-color: indianred;
+  border-radius: 7%;
+}
+
+.img-row1 {
+  border: 2px solid white ;
 }
 .description {
   font-size: 12px;
