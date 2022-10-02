@@ -24,18 +24,19 @@ body,
 }
 
 img {
-  height: 3rem;
+  height: 20rem;
+  padding: 30px;
+  margin: 0px auto;
+
 }
 .header {
   background-color: rgb(200,20,55);
   color: #fff;
-  height: 25vh;
+  height: 38vh;
   margin: 0px auto;
   padding: 35px;
   text-align: center;
   font-size: 12rem;
-  @include flex-row-center;
-  justify-content: center;
 }
 
 .header-by {
@@ -43,10 +44,15 @@ img {
   font-size: 4.5rem;
 }
 
-.parent {
+.parent1 {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  text-align: center;
+  height: 300px;
+  padding: 30px;
+  margin: 0px auto;
+  align-items: center;
 
 }
 
@@ -54,32 +60,41 @@ img {
   font-size: 30px;
   display: flex;
   justify-content: center;
- 
+  text-align: center;
+  height: 300px;
+  padding: 30px;
+  margin: 0px auto;
+  align-items: center;
 }
 
 .parent3 {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  
+  text-align: center;
+  height: 300px;
+  padding: 30px;
+  margin: 0px auto;
+  align-items: center;
 }
 
 .child-1 {
   border: 3px solid black;
-  height: 300px;
+  padding: 10px;
+  margin: 0px auto;
 }
 
 .child-2 {
-  border: 3px solid green;
-  height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 0px auto;
 }
 
 .child-3 {
- border: 3px solid blue;
- height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 0px auto;
 }
-
-.about-col {
-  background-color: azure;
-  height: 90%;
+.description {
+  font-size: 12px;
 }
