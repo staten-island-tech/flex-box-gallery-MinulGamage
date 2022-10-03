@@ -7,6 +7,7 @@ body,
   font-size: 62.5%;
 }
 
+
 .parent{
   font-size: 10px;
 }
@@ -23,16 +24,17 @@ body,
   font-size: 1em;
 }
 
-img {
-  height: 20rem;
-  padding: 30px;
-  margin: 0px auto;
 
+img {
+  height: 25rem;
+  padding: 4px;
+  margin: 0px auto;
+  border-radius: 7%;
 }
 .header {
   background-color: rgb(200,60,55);
   color: #fff;
-  height: 40vh;
+  height: 32vh;
   margin: 0px auto;
   padding: 25px;
   text-align: center;
@@ -41,18 +43,20 @@ img {
 }
 
 .header-by {
-  padding: 20px;
+  padding: 15px;
+  margin: 0px auto;
   font-size: 4.5rem;
 }
 
 .parent1 {
   font-size: 30px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   height: 300px;
   padding: 30px;
-  margin: 0px auto;
+  margin: 20px auto;
   align-items: center;
 
 }
@@ -60,51 +64,68 @@ img {
 .parent2 {
   font-size: 30px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   height: 300px;
   padding: 30px;
-  margin: 0px auto;
+  margin: 20px auto;
   align-items: center;
 }
 
 .parent3 {
   font-size: 30px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   height: 300px;
   padding: 30px;
-  margin: 0px auto;
+  margin: 20px auto;
   align-items: center;
 }
 
 .child-1 {
   border: 3px solid black;
   padding: 10px;
-  margin: 0px auto;
+  margin: 10px auto;
   background-color: indianred;
   border-radius: 7%;
+  box-shadow: 15px 5px 5px black;
+
 }
 
 .child-2 {
   border: 3px solid black;
   padding: 10px;
-  margin: 0px auto;
+  margin: 10px auto;
   background-color: indianred;
   border-radius: 7%;
+  box-shadow: 15px 5px 5px black;
 }
 
 .child-3 {
   border: 3px solid black;
   padding: 10px;
-  margin: 0px auto;
+  margin: 10px auto;
   background-color: indianred;
   border-radius: 7%;
+  box-shadow: 15px 5px 5px black;
 }
 
 .img-row1 {
   border: 2px solid white ;
+  border-radius: 7%;
+}
+
+.img-row2 {
+  border: 2px solid white ;
+  border-radius: 7%;
+}
+
+.img-row3 {
+  border: 2px solid white ;
+  border-radius: 7%;
 }
 .description {
   font-size: 12px;
