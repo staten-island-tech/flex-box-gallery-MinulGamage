@@ -27,9 +27,14 @@ body,
 
 img {
   height: 25rem;
-  padding: 4px;
   margin: 0px auto;
   border-radius: 7%;
+}
+
+
+.website-content {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIUUXzEnfGna1tQY1qKhwwgBnrr-TlMI1lsbQ3lpOLC5W_JizUfnRNyO0s3C7CqRvpe0&usqp=CAU);
+  
 }
 .header {
   background-color: rgb(200,60,55);
@@ -60,7 +65,6 @@ img {
   padding: 30px;
   margin: 0px auto;
   align-items: center;
-
 }
 
 .parent2 {
@@ -96,7 +100,6 @@ img {
   background-color: indianred;
   border-radius: 7%;
   box-shadow: 15px 5px 5px black;
-
 }
 
 .child-2 {
