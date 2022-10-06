@@ -7,6 +7,25 @@ body,
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 900px) {
+  .website-content{
+    flex-direction: row;
+  }
+  .header {
+    font-size: 20px;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .website-content{
+    flex-direction: column;
+  }
+  .header {
+    font-size: 15px;
+    height: 20vh;
+  }
+}
 
 .parent{
   font-size: 10px;
