@@ -12,8 +12,8 @@ body,
     flex-direction: row;
   }
   .header {
-    font-size: 20px;
-    height: 20vh;
+    font-size: 15px;
+    height: 15vh;
   }
 }
 
@@ -23,7 +23,7 @@ body,
   }
   .header {
     font-size: 15px;
-    height: 20vh;
+    height: 10vh;
   }
 }
 
@@ -116,7 +116,7 @@ img {
   border: 3px solid black;
   padding: 10px;
   margin: 10px auto;
-  background-color: indianred;
+  background-color: rgb(205, 92, 92);
   border-radius: 7%;
   box-shadow: 15px 5px 5px black;
 }
@@ -125,7 +125,7 @@ img {
   border: 3px solid black;
   padding: 10px;
   margin: 10px auto;
-  background-color: indianred;
+  background-color: rgb(205, 92, 92);
   border-radius: 7%;
   box-shadow: 15px 5px 5px black;
 }
@@ -134,29 +134,54 @@ img {
   border: 3px solid black;
   padding: 10px;
   margin: 10px auto;
-  background-color: indianred;
+  background-color: rgb(205, 92, 92);
   border-radius: 7%;
   box-shadow: 15px 5px 5px black;
 }
 
 .img-row1 {
-  border: 2px solid white ;
+  border: 2px solid rgb(255, 255, 255) ;
   border-radius: 7%;
 }
 
 .img-row2 {
-  border: 2px solid white ;
+  border: 2px solid rgb(255, 255, 255) ;
   border-radius: 7%;
 }
 
 .img-row3 {
-  border: 2px solid white ;
+  border: 2px solid rgb(255, 255, 255) ;
   border-radius: 7%;
 }
 
+.child-1 {
+  transition: all 0.3s;
+}
+.child-1:hover {
+  transform: scale(1.25);
+  background-color: black;
+}
+
+.child-2 {
+  transition: all 0.3s;
+}
+.child-2:hover {
+  transform: scale(1.25);
+  background-color: black;
+}
+
+.child-3 {
+  transition: all 0.3s;
+}
+.child-3:hover {
+  transform: scale(1.25);
+  background-color: black;
+}
+
+
 .description {
   font-size: 20px;
-  color: aliceblue;
+  color: rgb(240, 248, 255);
   font-family:'Oswald', sans-serif;
   font-weight: bold;
 }
