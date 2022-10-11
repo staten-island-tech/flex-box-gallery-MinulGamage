@@ -178,10 +178,82 @@ img {
   background-color: black;
 }
 
+.child-1:hover .child-1:not(:hover){
+  transform: scale(0.8);
+  opacity: 0.3;
+}
 
 .description {
   font-size: 20px;
   color: rgb(240, 248, 255);
   font-family:'Oswald', sans-serif;
   font-weight: bold;
+}
+
+.animation {
+  height: 10rem;
+  width: 10rem;
+  background-color: red;
+  animation: test2 4s infinite;
+  position: absolute;
+}
+
+
+@keyframes test{
+  0%{
+  left: 50%;
+  bottom: 10%;
+  background-color: blue;
+   }
+
+  25%{
+    left: 50%;
+    bottom: 20%;
+    background-color: green;
+  }
+
+  50% {
+    left: 55%;
+  bottom: 20%;
+  background-color: yellow;
+  }
+
+  75% {
+    left: 55%;
+  bottom: 10%;
+  background-color: red;
+  }
+
+  100% {
+    left: 50%;
+  bottom: 10%;
+  background-color: purple;
+  }
+}
+
+@keyframes test2{
+  0%{
+  rotate: 0%;
+  background-color: blue;
+   }
+
+  25%{
+    rotate: 25%;
+    background-color: green;
+  }
+
+  50% {
+    rotate: 50%;
+  background-color: yellow;
+  }
+
+  75% {
+    rotate: 75%;
+  background-color: red;
+  }
+
+  100% {
+    rotate: 100%;
+  background-color: purple;
+  }
 }
