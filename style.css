@@ -55,6 +55,7 @@ img {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIUUXzEnfGna1tQY1qKhwwgBnrr-TlMI1lsbQ3lpOLC5W_JizUfnRNyO0s3C7CqRvpe0&usqp=CAU);
   
 }
+
 .header {
   background-color: rgb(200,60,55);
   color: #fff;
@@ -72,6 +73,8 @@ img {
   margin: 0px auto;
   font-size: 4.5rem;
 }
+
+
 
 .parent1 {
   font-size: 30px;
@@ -194,66 +197,101 @@ img {
   height: 10rem;
   width: 10rem;
   background-color: red;
-  animation: test2 4s infinite;
+  animation: animation2 10s infinite;
   position: absolute;
+  margin: 0px auto;
 }
 
 
-@keyframes test{
-  0%{
-  left: 50%;
-  bottom: 10%;
-  background-color: blue;
-   }
-
-  25%{
-    left: 50%;
-    bottom: 20%;
-    background-color: green;
-  }
-
-  50% {
-    left: 55%;
-  bottom: 20%;
-  background-color: yellow;
-  }
-
-  75% {
-    left: 55%;
-  bottom: 10%;
-  background-color: red;
-  }
-
-  100% {
-    left: 50%;
-  bottom: 10%;
-  background-color: purple;
-  }
+@keyframes animation1{
+0%{
+  rotate: 0deg;
+  color: black;
 }
 
-@keyframes test2{
+25%{
+  rotate: 90deg;
+  color: white;
+}
+50%{
+  rotate: 180deg;
+  color: black;
+}
+
+75%{
+  rotate: 270deg;
+  color: white;
+}
+100%{
+  rotate: 360deg;
+  color: black;
+}
+}
+
+@keyframes animation2{
   0%{
-  rotate: 0%;
+  rotate: 0deg ease-in;
+  right: 0% ease-in;
   background-color: blue;
    }
 
-  25%{
-    rotate: 25%;
+  10%{
+    rotate: 360deg;
+    right: 25% ease-in;
     background-color: green;
   }
 
-  50% {
-    rotate: 50%;
+  20% {
+    rotate: 0deg;
+    right: 50% ease-in;
   background-color: yellow;
   }
 
-  75% {
-    rotate: 75%;
+  30% {
+    rotate: 360deg;
+    right: 75% ease-in;
   background-color: red;
   }
 
-  100% {
-    rotate: 100%;
+  40% {
+    rotate: 0deg;
+    right: 100% ease-in;
   background-color: purple;
+}
+
+50%{
+  rotate: 360deg;
+  right: 100% ease-in;
+  background-color: blue;
+   }
+
+  60%{
+    rotate: 0deg;
+    right: 75%;
+    background-color: green;
   }
+
+  70% {
+    rotate: 360deg;
+    right: 50%;
+  background-color: yellow;
+  }
+
+  80% {
+    rotate: 0deg;
+    right: 25%;
+  background-color: red;
+  }
+
+  90% {
+    rotate: 360deg;
+    right: 0%;
+  background-color: purple;
+}
+
+100% {
+  rotate:0deg;
+  right: 0%;
+  background-color: blue;
+}
 }
