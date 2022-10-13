@@ -230,38 +230,38 @@ img {
 
 @keyframes animation2{
   0%{
-  rotate: 0deg ease-in;
-  right: 0% ease-in;
+  rotate: 0deg;
+  right: 0%;
   background-color: blue;
    }
 
   10%{
     rotate: 360deg;
-    right: 25% ease-in;
+    right: 25% ;
     background-color: green;
   }
 
   20% {
     rotate: 0deg;
-    right: 50% ease-in;
+    right: 50%;
   background-color: yellow;
   }
 
   30% {
     rotate: 360deg;
-    right: 75% ease-in;
+    right: 75%;
   background-color: red;
   }
 
   40% {
     rotate: 0deg;
-    right: 100% ease-in;
+    right: 100%;
   background-color: purple;
 }
 
 50%{
   rotate: 360deg;
-  right: 100% ease-in;
+  right: 100%;
   background-color: blue;
    }
 
