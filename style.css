@@ -193,105 +193,136 @@ img {
   font-weight: bold;
 }
 
-.animation {
+
+
+.animation-1 {
   height: 10rem;
   width: 10rem;
-  background-color: red;
-  animation: animation2 10s infinite;
+  background-color: black;
+  animation: animation1 15s infinite;
   position: absolute;
   margin: 0px auto;
 }
 
 
 @keyframes animation1{
-0%{
+
+0% {
+  background-color: red;
   rotate: 0deg;
-  color: black;
+  left: 0%;
 }
 
-25%{
-  rotate: 90deg;
-  color: white;
+5% {
+  background-color: blue;
+  rotate: 36deg;
+  left: 10%;
 }
-50%{
+
+10% {
+  background-color: yellow;
+  rotate: 72deg;
+  left: 20%;
+}
+
+15% {
+  background-color: green;
+  rotate: 108deg;
+  left: 30%;
+}
+
+20% {
+  background-color: purple;
+  rotate: 144deg;
+  left: 40%;
+}
+
+25% {
+  background-color: red;
   rotate: 180deg;
-  color: black;
+  left: 50%;
 }
 
-75%{
-  rotate: 270deg;
-  color: white;
+30%{
+  background-color: blue;
+  rotate: 216deg;
+  left: 60%;
+}
+
+35%{
+  background-color: yellow;
+  rotate: 252deg;
+  left: 70%;
+}
+
+40%{
+  background-color: green;
+  rotate: 288deg;
+  left: 80%;
+}
+
+45%{
+  background-color: purple;
+ rotate: 324deg;
+ left: 90%;
+}
+
+50%{
+  background-color: red;
+  rotate: 360deg;
+  left: 95%;
+}
+
+55%{
+  background-color: blue;
+  rotate: 324deg;
+  left: 90%;
+}
+
+60%{
+  background-color: yellow;
+  rotate: 288deg;
+  left: 80%;
+}
+
+65%{
+  background-color: green;
+  rotate: 252deg;
+  left: 70%;
+}
+
+70%{
+  background-color: purple;
+  rotate: 216deg;
+  left: 60%;
+}
+
+80%{
+  background-color: red;
+  rotate: 180deg;
+  left: 50%;
+}
+
+85%{
+  background-color: blue;
+  rotate: 144deg;
+  left: 40%;
+}
+
+90%{
+  backdrop-filter: yellow;
+  rotate: 108deg;
+  left: 30%; 
+}
+
+95%{
+  background-color: green;
+  rotate: 72deg;
+  left: 20%;
 }
 100%{
-  rotate: 360deg;
-  color: black;
-}
-}
-
-@keyframes animation2{
-  0%{
-  rotate: 0deg;
-  right: 0%;
-  background-color: blue;
-   }
-
-  10%{
-    rotate: 360deg;
-    right: 25% ;
-    background-color: green;
-  }
-
-  20% {
-    rotate: 0deg;
-    right: 50%;
-  background-color: yellow;
-  }
-
-  30% {
-    rotate: 360deg;
-    right: 75%;
-  background-color: red;
-  }
-
-  40% {
-    rotate: 0deg;
-    right: 100%;
   background-color: purple;
-}
-
-50%{
-  rotate: 360deg;
-  right: 100%;
-  background-color: blue;
-   }
-
-  60%{
-    rotate: 0deg;
-    right: 75%;
-    background-color: green;
-  }
-
-  70% {
-    rotate: 360deg;
-    right: 50%;
-  background-color: yellow;
-  }
-
-  80% {
-    rotate: 0deg;
-    right: 25%;
-  background-color: red;
-  }
-
-  90% {
-    rotate: 360deg;
-    right: 0%;
-  background-color: purple;
-}
-
-100% {
-  rotate:0deg;
-  right: 0%;
-  background-color: blue;
+  rotate: 36deg;
+  left: 10%;
 }
 }
