@@ -53,6 +53,7 @@ img {
 
 .website-content {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIUUXzEnfGna1tQY1qKhwwgBnrr-TlMI1lsbQ3lpOLC5W_JizUfnRNyO0s3C7CqRvpe0&usqp=CAU);
+  height: 198vh;
   
 }
 
@@ -193,136 +194,194 @@ img {
   font-weight: bold;
 }
 
-
+.header {
+  animation: coloredbackground 13s infinite;
+}
 
 .animation-1 {
   height: 10rem;
   width: 10rem;
-  background-color: black;
-  animation: animation1 15s infinite;
+  background-color: rgb(0, 0, 0);
+  animation: animation1 10s infinite;
   position: absolute;
   margin: 0px auto;
 }
 
+.animation-2 {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(0, 0, 0);
+  animation: animation2 10s infinite;
+  position: absolute;
+  margin: 0px auto;
+}
+
+.animation-3 {
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(0, 0, 0);
+  animation: animation3 10s infinite;
+  position: absolute;
+  margin: 0px auto;
+}
+/*  
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border: 15px solid white;
+  border-top-color: black;
+  border-radius: 50%;
+  animation: loading 1s infinite;
+}
+*/
 
 @keyframes animation1{
 
 0% {
-  background-color: red;
   rotate: 0deg;
   left: 0%;
+  background-color: rgb(0, 255, 255);
 }
 
-5% {
-  background-color: blue;
-  rotate: 36deg;
-  left: 10%;
+50% {
+  rotate: 360deg;
+  left: 94%;
+  background-color: rgb(100, 149, 237);
+}
+
+100%{
+  rotate: 0deg;
+  left: 0%;
+  background-color: rgb(133, 202, 245);
+}
+}
+
+@keyframes animation2{
+
+0% {
+  bottom: -95%;
+  background-color: rgb(238, 130, 238);
+}
+
+50% {
+  bottom: 90%;
+  background-color: rgb(222, 184, 135);
+}
+
+100% {
+  bottom: -95%;
+  background-color: rgb(135, 206, 250);
+}
+}
+
+@keyframes coloredbackground{
+
+  0% {
+    background-color: rgb(63, 89, 98);
+  }
+
+  20% {
+    background-color: rgb(120, 16, 37);
+  }
+
+  40% {
+    background-color: rgb(129, 76, 131);
+  }
+
+  60% {
+    background-color: rgb(122, 107, 20);
+  }
+  80% {
+    background-color: rgb(14, 73, 14);
+  }
+
+  100% {
+    background-color: rgb(63, 89,98);
+  }
+}
+
+@keyframes animation3{
+
+0% {
+  left: 0%;
+  bottom: -130%;
 }
 
 10% {
-  background-color: yellow;
-  rotate: 72deg;
   left: 20%;
-}
-
-15% {
-  background-color: green;
-  rotate: 108deg;
-  left: 30%;
+  bottom: -120%;
 }
 
 20% {
-  background-color: purple;
-  rotate: 144deg;
   left: 40%;
+  bottom: -130%;
 }
 
-25% {
-  background-color: red;
-  rotate: 180deg;
-  left: 50%;
-}
-
-30%{
-  background-color: blue;
-  rotate: 216deg;
+30% {
   left: 60%;
+  bottom: -120%;
 }
 
-35%{
-  background-color: yellow;
-  rotate: 252deg;
-  left: 70%;
-}
-
-40%{
-  background-color: green;
-  rotate: 288deg;
+40% {
   left: 80%;
+  bottom: -130%;
 }
 
-45%{
-  background-color: purple;
- rotate: 324deg;
- left: 90%;
+50% {
+  left: 94%;
+  bottom: -120%;
 }
 
-50%{
-  background-color: red;
-  rotate: 360deg;
-  left: 95%;
-}
-
-55%{
-  background-color: blue;
-  rotate: 324deg;
-  left: 90%;
-}
-
-60%{
-  background-color: yellow;
-  rotate: 288deg;
+60% {
   left: 80%;
+  bottom: -130%;
 }
 
-65%{
-  background-color: green;
-  rotate: 252deg;
-  left: 70%;
-}
-
-70%{
-  background-color: purple;
-  rotate: 216deg;
+70% {
   left: 60%;
+  bottom: -120%;
 }
 
-80%{
-  background-color: red;
-  rotate: 180deg;
-  left: 50%;
-}
-
-85%{
-  background-color: blue;
-  rotate: 144deg;
+80% {
   left: 40%;
+  bottom: -130%;
 }
 
-90%{
-  backdrop-filter: yellow;
-  rotate: 108deg;
-  left: 30%; 
-}
-
-95%{
-  background-color: green;
-  rotate: 72deg;
+90% {
   left: 20%;
+  bottom: -120%;
 }
-100%{
-  background-color: purple;
-  rotate: 36deg;
-  left: 10%;
+
+100% {
+  left:0%;
+  bottom: -130%;
 }
+}
+
+@keyframes animation4{
+
+
+}
+
+
+
+@keyframes loading{
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
 }
