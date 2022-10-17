@@ -167,7 +167,7 @@ img {
 }
 
 .child-2 {
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 .child-2:hover {
   border: blue 3px solid;
@@ -190,11 +190,11 @@ img {
   background-color: crimson;
 }
 .child-33 {
-  transition: all 3s;
+  transition: all 1.2s;
 }
 .child-33:hover {
   background-color: cyan;
-  transform: rotate(720deg);
+  transform: rotate(15deg);
 }
 .child-1:hover .child-1:not(:hover){
   transform: scale(0.8);
