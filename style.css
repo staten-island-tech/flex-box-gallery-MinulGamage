@@ -23,7 +23,7 @@ body,
   }
   .header {
     font-size: 15px;
-    height: 10vh;
+    height: 20vh;
   }
 }
 
@@ -197,7 +197,7 @@ img {
   background-color: cyan;
   transform: rotate(15deg);
 }
-.child-1:hover .child-1:not(:hover){
+.parent-1:hover .parent-1:not(:hover){
   transform: scale(0.8);
   opacity: 0.3;
 }
