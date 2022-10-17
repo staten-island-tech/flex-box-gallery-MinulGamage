@@ -53,7 +53,7 @@ img {
 
 .website-content {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIUUXzEnfGna1tQY1qKhwwgBnrr-TlMI1lsbQ3lpOLC5W_JizUfnRNyO0s3C7CqRvpe0&usqp=CAU);
-  height: 230vh;
+  height: 220vh;
   
 }
 
@@ -170,22 +170,38 @@ img {
   transition: all 0.3s;
 }
 .child-2:hover {
-  transform: scale(1.25);
+  border: blue 3px solid;
   background-color: black;
 }
 
-.child-3 {
-  transition: all 0.3s;
+.child-31 {
+  transition: all 0.7s;
 }
-.child-3:hover {
-  transform: scale(1.25);
-  background-color: black;
+.child-31:hover {
+  transform: rotate(-360deg);
+  background-color: blue;
 }
 
+.child-32 {
+  transition: 3s;
+}
+.child-32:hover {
+  transform: scale(0.75);
+  left: 30%;
+  background-color: crimson;
+}
+.child-33 {
+  transition: all 3s;
+}
+.child-33:hover {
+  background-color: cyan;
+  transform: rotate(720deg);
+}
 .child-1:hover .child-1:not(:hover){
   transform: scale(0.8);
   opacity: 0.3;
 }
+
 
 .description {
   font-size: 20px;
@@ -342,67 +358,67 @@ img {
 
 0% {
   left: 0%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: red;
 }
 
 10% {
   left: 20%;
-  bottom: -120%;
+  bottom: -110%;
   background-color: orange;
 }
 
 20% {
   left: 40%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: yellow;
 }
 
 30% {
   left: 60%;
-  bottom: -120%;
+  bottom: -110%;
   background-color: green;
 }
 
 40% {
   left: 80%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: blue;
 }
 
 50% {
   left: 94%;
-  bottom: -120%;
+  bottom: -110%;
   background-color: blueviolet;
 }
 
 60% {
   left: 80%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: blue;
 }
 
 70% {
   left: 60%;
-  bottom: -120%;
+  bottom: -110%;
   background-color: green;
 }
 
 80% {
   left: 40%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: yellow;
 }
 
 90% {
   left: 20%;
-  bottom: -120%;
+  bottom: -110%;
   background-color: orange;
 }
 
 100% {
   left:0%;
-  bottom: -130%;
+  bottom: -100%;
   background-color: red;
 }
 }
@@ -411,19 +427,19 @@ img {
 
   0%{
    left: 60%;
-   bottom: -150%;
+   bottom: -100%;
    background-color: rgb(92, 45, 45);
   }
  25% {
   left: 60%;
-  bottom: -150%;
+  bottom: -100%;
   transform: scale(1.75);
   background-color: rgba(255, 235, 205, 0.959);
  }
 
  50% {
   left: 60%;
-  bottom: -150%;
+  bottom: -100%;
   rotate: 360deg;
   transform: scale(1.75);
   background-color: rgba(172, 255, 47, 0.968);
@@ -431,13 +447,13 @@ img {
 
  75% {
   left: 60%;
-  bottom: -150%;
+  bottom: -100%;
   transform: scale(1.00);
   background-color: rgba(127, 255, 212, 0.968);
  }
 
  100%{
-  bottom: -150%;
+  bottom: -100%;
   left: 60%;
   background-color: rgb(255, 0, 0);
  }
@@ -446,19 +462,19 @@ img {
 @keyframes animation5 {
 
   0% {
-    bottom: -150%;
+    bottom: -90%;
     left: 20%;
     background-color: coral;
   }
 
   25% {
-    bottom: -150%;
+    bottom: -120%;
     left: 40%;
     background-color: aqua;
   }
 
   50% {
-    bottom: -120%;
+    bottom: -90%;
     left: 40%;
     background-color: fuchsia;
   }
@@ -478,7 +494,7 @@ img {
 
 @keyframes animation6 {
   0% {
-    bottom: -150%;
+    bottom: -130%;
     left: 75%;
     rotate: 0deg;
     background-color: aquamarine;
@@ -486,14 +502,14 @@ img {
 
   50% {
     rotate: 720deg;
-    bottom: -150%;
+    bottom: -130%;
     left: 75%;
     background-color: lightskyblue;
   }
 
   100% {
     rotate: 0deg;
-    bottom: -150%;
+    bottom: -130%;
     left: 75%;
     background-color: aquamarine;
   }
