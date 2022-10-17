@@ -187,7 +187,6 @@ img {
 }
 .child-32:hover {
   transform: scale(0.75);
-  left: 30%;
   background-color: crimson;
 }
 .child-33 {
@@ -231,7 +230,7 @@ img {
   position: absolute;
   margin: 0px auto;
 }
-
+/*
 .animation-3 {
   height: 10rem;
   width: 10rem;
@@ -240,7 +239,8 @@ img {
   position: absolute;
   margin: 0px auto;
 }
-
+*/
+/*
 .animation-4 {
   height: 10rem;
   width: 10rem;
@@ -249,7 +249,8 @@ img {
   position: absolute;
   margin: 0px auto;
 }
-
+*/
+/*
 .animation-5 {
   height: 10rem;
   width: 10rem;
@@ -258,7 +259,8 @@ img {
   position: absolute;
   margin: 0px auto;
 }
-
+*/
+/*
 .animation-6 {
   height: 10rem;
   width: 10rem;
@@ -267,6 +269,7 @@ img {
   position: absolute;
   margin: 0px auto;
 }
+*/
 /*  
 .loader {
   position: fixed;
