@@ -7,23 +7,45 @@ body,
   font-size: 62.5%;
 }
 
-@media screen and (max-width: 900px) {
+@media :-moz-full-screen and (max-width: 900px) {
   .website-content{
     flex-direction: row;
   }
-  .header {
+
+ .parent-1{
+
+ }
+  .website-header {
     font-size: 15px;
-    height: 15vh;
+    height: 30rem;
+    padding: 0px;
+    margin: 0px auto;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .website-content{
     flex-direction: column;
   }
+  .parent-1 {
+height: 20vh;
+  }
   .header {
-    font-size: 15px;
-    height: 20vh;
+    font-size: 4px;
+    width: 40rem;
+  }
+
+  .img-row1 {
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+  }
+  .child-1 {
+    background-color: blue;
+    height: 28rem;
+    width: 40rem;
+    justify-content: center;
+
   }
 }
 
@@ -85,8 +107,8 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding: 30px;
-  margin: 0px auto;
+  padding: 20px;
+  margin: 10px auto;
   align-items: center;
 }
 
@@ -98,8 +120,8 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding: 30px;
-  margin: 0px auto;
+  padding: 20px;
+  margin: 10px auto;
   align-items: center;
 }
 
@@ -111,14 +133,14 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding: 30px;
-  margin: 0px auto;
+  padding: 20px;
+  margin: 10px auto;
   align-items: center;
 }
 
 .child-1 {
   border: 3px solid black;
-  padding: 10px;
+  padding: 20px;
   margin: 10px auto;
   background-color: rgb(205, 92, 92);
   border-radius: 7%;
@@ -127,7 +149,7 @@ img {
 
 .child-2 {
   border: 3px solid black;
-  padding: 10px;
+  padding: 20px;
   margin: 10px auto;
   background-color: rgb(205, 92, 92);
   border-radius: 7%;
@@ -136,7 +158,7 @@ img {
 
 .child-3 {
   border: 3px solid black;
-  padding: 10px;
+  padding: 20px;
   margin: 10px auto;
   background-color: rgb(205, 92, 92);
   border-radius: 7%;
@@ -222,7 +244,7 @@ img {
   position: absolute;
   margin: 0px auto;
 }
-
+/*
 .animation-2 {
   height: 8rem;
   width: 8rem;
@@ -230,7 +252,7 @@ img {
   animation: animation2 10s infinite;
   position: absolute;
   margin: 0px auto;
-}
+}*/
 /*
 .animation-3 {
   height: 10rem;
