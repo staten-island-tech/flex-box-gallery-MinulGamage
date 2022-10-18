@@ -20,33 +20,37 @@ body,
     height: 30rem;
     padding: 0px;
     margin: 0px auto;
+    justify-content: center;
+    display: flex;
   }
+
 }
 
 @media screen and (max-width: 500px) {
   .website-content{
     flex-direction: column;
   }
-  .parent-1 {
-height: 20vh;
-  }
+ 
   .header {
     font-size: 4px;
     width: 40rem;
   }
 
-  .img-row1 {
+  .img {
     justify-content: center;
     align-items: center;
     height: 20rem;
   }
-  .child-1 {
+  .child {
     background-color: blue;
     height: 28rem;
     width: 40rem;
     justify-content: center;
+ }
 
-  }
+ .parent {
+  margin: 0px auto;
+ }
 }
 
 .parent{
