@@ -7,21 +7,22 @@ body,
   font-size: 62.5%;
 }
 
-@media :-moz-full-screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .website-content{
-    flex-direction: row;
+    flex-direction: column;
   }
 
- .parent-1{
-
+ .parent {
+  margin: 0px auto;
+  width: 5rem;
+  display: flex;
  }
   .website-header {
     font-size: 15px;
-    height: 30rem;
+    width: 90rem;
     padding: 0px;
     margin: 0px auto;
     justify-content: center;
-    display: flex;
   }
 
 }
@@ -31,9 +32,10 @@ body,
     flex-direction: column;
   }
  
-  .header {
+  .website-header {
     font-size: 4px;
-    width: 40rem;
+    width: 50rem;
+    align-items: center;
   }
 
   .img {
@@ -51,7 +53,16 @@ body,
  .parent {
   margin: 0px auto;
   width: 5rem;
+  display: flex;
  }
+
+ .child-1 {
+  transition: all 0.3s;
+}
+.child-1:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
 }
 
 .parent{
