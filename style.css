@@ -35,7 +35,7 @@ body,
   .website-header {
     font-size: 4px;
     display: flex;
-    width: 40rem;
+    width: 41rem;
     align-items: center;
   }
 
@@ -64,6 +64,7 @@ body,
  .child-1 {
   transition: all 0.3s;
 }
+
 .child-1:hover {
   transform: scale(1.1);
   background-color: black;
