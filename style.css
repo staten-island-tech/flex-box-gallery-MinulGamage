@@ -11,36 +11,19 @@ body,
   .website-content{
     flex-direction: column;
   }
-
- .parent {
-  margin: 0px auto;
-  width: 5rem;
-  display: flex;
- }
-  .website-header {
-    font-size: 15px;
-    width: 90rem;
-    padding: 0px;
-    margin: 0px auto;
-    justify-content: center;
-  }
-
-}
-
-@media screen and (max-width: 500px) {
-  .website-content{
-    flex-direction: column;
-  }
  
   .website-header {
-    font-size: 4px;
+    font-size: 6px;
     display: flex;
-    width: 41rem;
+    width: 90rem;
+    padding: 20px 20px;
+    margin: 0px auto;
     align-items: center;
+    justify-items: center;
   }
 
   .header {
-    font-size: 3px;
+    font-size: 6px;
   }
 
   .img {
@@ -48,8 +31,58 @@ body,
     align-items: center;
     height: 16rem;
   }
+
+  .child { 
+    height: 26rem;
+    width: 36rem;
+    justify-content: center;
+ }
+
+ .parent {
+  margin: 0px auto;
+  width: 5rem;
+  display: flex;
+ }
+
+ .child-1 {
+  transition: all 0.3s;
+}
+
+.child-1:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .website-content{
+    flex-direction: column;
+  }
+ 
+  .website-header {
+    display: flex;
+    width: 43rem;
+    margin: 0px auto;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 3px;
+  }
+
+  .header-by {
+    font-size: 1px;
+  }
+  .img {
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+  }
   .child {
-    background-color: blue;
     height: 26rem;
     width: 36rem;
     justify-content: center;
@@ -108,7 +141,7 @@ img {
   margin: 0px auto;
   padding: 25px;
   text-align: center;
-  font-size: 12rem;
+  font-size: 20rem;
   font-family: 'Oswald', sans-serif;
   border-bottom: 5px solid black;
 }
