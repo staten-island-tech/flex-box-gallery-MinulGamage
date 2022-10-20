@@ -34,8 +34,13 @@ body,
  
   .website-header {
     font-size: 4px;
-    width: 50rem;
+    display: flex;
+    width: 30rem;
     align-items: center;
+  }
+
+  .header {
+    font-size: 3px;
   }
 
   .img {
